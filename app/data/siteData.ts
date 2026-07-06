@@ -91,7 +91,7 @@ export const projects: Project[] = [
     tags: ["Vite", "TypeScript", "Tailwind", "Supabase"],
     liveUrl: "https://cloudvault-eight.vercel.app/",
     repoUrl: "https://github.com/KieneDaniel",
-    imgprev: "/cloud.png", // É a tela inicial do projeto.
+    imgprev: "/cloud.png", // É a tela inicial do projeto. É sim
   },
   
 ];
