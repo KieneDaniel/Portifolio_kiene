@@ -89,7 +89,9 @@ const LandingSection = () => {
             </div>
 
             <a
-              href="/cv-kiene.pdf"
+              href="/cv-kiene.pdf" // Vou adicionar o arquivo PDF do CV na pasta public para que o link funcione corretamente.
+              target="_blank"
+              rel="noopener noreferrer"
               download
               className="inline-flex w-fit items-center justify-center gap-2 rounded-full border border-accent-blue-soft bg-accent-blue-soft/10 px-7 py-3 text-base font-semibold text-accent-blue-soft shadow-[0_18px_50px_rgba(93,182,244,0.18)] transition-all duration-300 hover:bg-accent-blue-soft hover:text-accent-dark hover:shadow-[0_20px_60px_rgba(93,182,244,0.25)]"
             >
