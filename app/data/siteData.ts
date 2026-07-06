@@ -81,7 +81,7 @@ export const projects: Project[] = [
     tags: ["React","Next.js", "TypeScript", "Tailwind", "Firebase", "TelcoSMS"],
     liveUrl: "https://eduque.vercel.app/",
     repoUrl: "https://github.com/KieneDaniel",
-    imgprev: "/eduque.png",
+    imgprev: "/eduque1.png",
   },
   {
     title: "Cloud Vault - Armazenamento em Nuvem",
@@ -91,7 +91,7 @@ export const projects: Project[] = [
     tags: ["Vite", "TypeScript", "Tailwind", "Supabase"],
     liveUrl: "https://cloudvault-eight.vercel.app/",
     repoUrl: "https://github.com/KieneDaniel",
-    imgprev: "/cloud.png", // É a tela inicial do projeto. É sim
+    imgprev: "/cloud1.png", // É a tela inicial do projeto. É sim
   },
   
 ];
