@@ -35,6 +35,8 @@ const HomePage: FC = () => {
       { rootMargin: "-40% 0px -55% 0px" }
     );
 
+    // Observe each section
+
     sections.forEach((section) => observer.observe(section));
     return () => observer.disconnect();
   }, []);
