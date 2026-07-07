@@ -89,7 +89,7 @@ const LandingSection = () => {
             </div>
 
             <a
-              href="/cv-kiene.pdf" // Vou adicionar o arquivo PDF do CV na pasta public para que o link funcione corretamente.
+              href="/Kiene Daniel.pdf" // Vou adicionar o arquivo PDF do CV na pasta public para que o link funcione corretamente.
               target="_blank"
               rel="noopener noreferrer"
               download

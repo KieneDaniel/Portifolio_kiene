@@ -9,12 +9,29 @@ import {
   SiHtml5,
   SiCss,
 } from "react-icons/si";
+import {
+  FaUsers,
+  FaComments,
+  FaLightbulb,
+  FaHandshake,
+  FaSync,
+  FaTrophy,
+  FaHeart,
+  FaClock,
+} from "react-icons/fa";
 
 export type Skill = {
   name: string;
   Icon: IconType;
   color: string;
   proficiency: number;
+};
+
+export type SoftSkill = {
+  name: string;
+  Icon: IconType;
+  color: string;
+  description: string;
 };
 
 export type Project = {
@@ -60,6 +77,57 @@ export const skills: Skill[] = [
   { name: "Tailwind CSS", Icon: SiTailwindcss, color: "#38bdf8", proficiency: 85 },
   { name: "HTML5", Icon: SiHtml5, color: "#e34c26", proficiency: 90 },
   { name: "CSS3", Icon: SiCss, color: "#264de4", proficiency: 85 },
+];
+
+export const softSkills: SoftSkill[] = [
+  {
+    name: "Trabalho em Equipa",
+    Icon: FaUsers,
+    color: "#8b5cf6",
+    description: "Colaboração eficaz e apoio mútuo",
+  },
+  {
+    name: "Comunicação",
+    Icon: FaComments,
+    color: "#3b82f6",
+    description: "Expressão clara de ideias e conceitos",
+  },
+  {
+    name: "Criatividade",
+    Icon: FaLightbulb,
+    color: "#fbbf24",
+    description: "Pensamento inovador e soluções criativas",
+  },
+  {
+    name: "Liderança",
+    Icon: FaHandshake,
+    color: "#f97316",
+    description: "Influência positiva e orientação de equipas",
+  },
+  {
+    name: "Adaptabilidade",
+    Icon: FaSync,
+    color: "#10b981",
+    description: "Flexibilidade perante mudanças e desafios",
+  },
+  {
+    name: "Resolução de Problemas",
+    Icon: FaTrophy,
+    color: "#ec4899",
+    description: "Análise crítica e soluções efetivas",
+  },
+  {
+    name: "Empatia",
+    Icon: FaHeart,
+    color: "#ef4444",
+    description: "Compreensão e consideração pelos outros",
+  },
+  {
+    name: "Gestão de Tempo",
+    Icon: FaClock,
+    color: "#06b6d4",
+    description: "Organização e cumprimento de prazos",
+  },
 ];
 
 export const projects: Project[] = [
