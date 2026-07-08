@@ -9,7 +9,7 @@ const ContactSection: FC = () => (
       <SectionHeading
         eyebrow="Contacto"
         title="Vamos conversar"
-        desc="Estou disponível para oportunidades, colaborações ou apenas para trocar uma ideia sobre tecnologia."
+        desc="Estou disponível para oportunidades, colaborações ou apenas para trocar uma ideia."
       />
       <ContactCard />
     </div>

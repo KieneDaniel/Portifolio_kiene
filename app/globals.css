@@ -35,6 +35,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+#projetos {
+  display:none;
+}
+
 body::before {
   content: "";
   position: fixed;

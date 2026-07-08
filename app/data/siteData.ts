@@ -37,8 +37,7 @@ export type JourneyStep = {
 export const navItems = [
   { label: "Início", href: "#inicio" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Tecnologias", href: "#habilidades" },
-  { label: "Projetos", href: "#projetos" },
+  { label: "Habilidades", href: "#habilidades" },
   { label: "Jornada", href: "#jornada" },
   { label: "Contacto", href: "#contacto" },
 ] as const;
@@ -52,14 +51,12 @@ export const heroTechs = [
 ];
 
 export const skills: Skill[] = [
-  { name: "JavaScript", Icon: SiJavascript, color: "#f7df1e", proficiency: 65 },
-  { name: "TypeScript", Icon: SiTypescript, color: "#3178c6", proficiency: 85 },
-  { name: "Node.js", Icon: SiNodedotjs, color: "#68a063", proficiency: 85 },
-  { name: "Next.js", Icon: SiNextdotjs, color: "#ffffff", proficiency: 80 },
-  { name: "React", Icon: SiReact, color: "#61dafb", proficiency: 90 },
-  { name: "Tailwind CSS", Icon: SiTailwindcss, color: "#38bdf8", proficiency: 85 },
-  { name: "HTML5", Icon: SiHtml5, color: "#e34c26", proficiency: 90 },
-  { name: "CSS3", Icon: SiCss, color: "#264de4", proficiency: 85 },
+  { name: "Projectos de Marketing", Icon: SiJavascript, color: "#f7df1e", proficiency: 65 },
+  { name: "Liderança", Icon: SiTypescript, color: "#3178c6", proficiency: 85 },
+  { name: "Cooperação Interpessoal", Icon: SiNodedotjs, color: "#68a063", proficiency: 85 },
+  { name: "Comunicólogo", Icon: SiNextdotjs, color: "#ffffff", proficiency: 80 },
+  { name: "Gestão Organizacional", Icon: SiReact, color: "#61dafb", proficiency: 90 },
+  { name: "Condução Automóvel e Conhecimento de Motore", Icon: SiTailwindcss, color: "#38bdf8", proficiency: 85 },
 ];
 
 export const projects: Project[] = [
@@ -97,8 +94,10 @@ export const projects: Project[] = [
 ];
 
 export const journey: JourneyStep[] = [
-  { year: "2023", title: "Primeiros passos", desc: "Comecei a especializar-me na área da informática, aprendendo a base, desde a lógica de programação até codificações em Visualg" },
-  { year: "2024", title: "Fundamentos sólidos", desc: "Aprofundei lógica de programação e comecei a construir pequenos projetos." },
-  { year: "2025", title: "React & Next.js", desc: "Após ter melhorado em HTML e CSS, comecei a aprender React e Next.js." },
-  { year: "2026", title: "Construindo o futuro", desc: "Nunca parando de aprender e melhorar." },
+  { year: "2024", title: "GWM ANGOLA - Director de Vendas", desc: "Gestão de Vendas, equipa, clientes e arquivos processuais interno e externo" },
+  { year: "2024", title: "KHT - Gestor de Marketing", desc: "Desenvolvimento e Implementação de estratégias de Marketing" },
+  { year: "2024", title: "Fundo Viana - Logístico", desc: "Operador de logistica interna e externa a empresa" },
+  { year: "2025", title: "Supermercado MAXI - Operador de Caixa", desc: "Operacionabilidade eficiente do sistema de vendas no supermercado Maxi" },
+  { year: "2026", title: "Empresa Arosfran - Gestor de Stock", desc: "Gerenciar as actividades relativos à logistica em stock" },
+  { year: "2023", title: "Empresa Zinzi Comercial - Contador de Stock", desc: "Desenvolver sistema convencional de controlo de produtos em stock; supervisionar o armazenamento de produtos; contar, gerir e relatar a gestão de produtos em stock" },
 ];

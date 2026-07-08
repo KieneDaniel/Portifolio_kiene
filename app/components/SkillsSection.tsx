@@ -8,7 +8,7 @@ const SkillsSection: FC = () => (
   <SectionContainer id="habilidades">
       <SectionHeading
         eyebrow="Habilidades"
-        title="Tecnologias & Skills"
+        title=""
         desc=""
       />
 
