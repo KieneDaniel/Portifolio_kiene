@@ -23,14 +23,14 @@ const Header: FC<{ activeSection: string; onNavigate?: () => void }> = ({ active
           : "bg-transparent"
       }`}
     >
-      <nav className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 items-center gap-4 px-6 md:px-16 py-5">
+      <nav className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-2 justify-between items-center gap-4 px-6 md:px-16 py-5">
         <div className="flex items-center gap-3">
           <div>
             <span className="text-lg font-bold">&lt;/&gt;</span>
           </div>
           <div>
-            <p className="text-base md:text-lg font-bold text-brand tracking-wide leading-tight">Kiene Daniel Dev</p>
-            <p className="text-xs text-[var(--foreground)]/80">Front-end Junior</p>
+            <p className="text-base md:text-lg font-bold text-brand tracking-wide leading-tight">José Augusto Sangolo</p>
+            <p className="text-xs text-[var(--foreground)]/80">Gestor de Vendas</p>
           </div>
         </div>
 
@@ -41,10 +41,6 @@ const Header: FC<{ activeSection: string; onNavigate?: () => void }> = ({ active
         </ul>
 
         <div className="flex items-center justify-end gap-4">
-          <span className="hidden md:inline text-xl cursor-default transition-transform duration-300 hover:scale-125 hover:-rotate-12 select-none">
-            😎
-          </span>
-
           <button
             aria-label="Abrir menu"
             onClick={() => setMobileOpen((v) => !v)}
